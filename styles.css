@@ -1,8 +1,30 @@
 *{
     margin:0;
     padding:0;
+    font-family: 'Roboto';
 }
 
 body{
     min-height:100vh
+}
+
+.header , .introduction{
+    background-color: #1F2937;
+}
+
+.header h3, .header a {
+    color:white;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-links{
+    display: flex;
+    gap:20px;
 }
