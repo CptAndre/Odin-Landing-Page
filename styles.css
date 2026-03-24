@@ -28,3 +28,42 @@ body{
     display: flex;
     gap:20px;
 }
+
+.introduction h1, .introduction p , .introduction img{
+    color:white;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+}
+
+.introduction{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:100px;
+    gap:30px;
+}
+
+.introduction-text{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap:10px;
+}
+
+.introduction .introduction-text  button{
+    background-color: #3882f6 ;
+    color:white;
+    padding: 8px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    width: fit-content;
+}
+
+.introduction .introduction-text h1{
+    font-size: 48px;
+    color: #f9faf8;
+}
