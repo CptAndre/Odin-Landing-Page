@@ -33,7 +33,7 @@ body{
     color: white;
 }
 
-img{
+.hero-image img{
     width: 500px;
     height: 300px;
 }
@@ -109,4 +109,26 @@ img{
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: row ;
+    padding:100px;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    font-size: 36px;
+    line-height: 2.0;
+}
+
+#quote{
+    font-weight: 300;
+    font-style: italic;
+}
+
+#author{
+    font-weight: bold;
+    text-align: end;
 }
