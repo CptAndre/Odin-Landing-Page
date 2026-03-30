@@ -1,19 +1,19 @@
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto';
 }
 
 body{
-    min-height:100vh
+    min-height: 100vh
 }
 
-.header , .introduction{
+.header , .hero{
     background-color: #1F2937;
 }
 
 .header h3, .header a {
-    color:white;
+    color: white;
     text-decoration: none;
 }
 
@@ -26,11 +26,11 @@ body{
 
 .header-links{
     display: flex;
-    gap:20px;
+    gap: 20px;
 }
 
-.introduction h1, .introduction p , .introduction img{
-    color:white;
+.hero h1, .hero p , .hero img{
+    color: white;
 }
 
 img{
@@ -38,24 +38,24 @@ img{
     height: 300px;
 }
 
-.introduction{
+.hero{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding:100px;
-    gap:30px;
+    padding: 100px;
+    gap: 30px;
 }
 
-.introduction-text{
+.hero-text{
     display: flex;
     flex-direction: column;
     max-width: 500px;
-    gap:10px;
+    gap: 10px;
 }
 
-.introduction .introduction-text  button{
+.hero-text  button{
     background-color: #3882f6 ;
-    color:white;
+    color: white;
     padding: 8px 30px;
     border-radius: 10px;
     font-weight: bold;
@@ -63,7 +63,50 @@ img{
     width: fit-content;
 }
 
-.introduction .introduction-text h1{
+.hero-text h1{
     font-size: 48px;
     color: #f9faf8;
+}
+
+.box{
+    border: #3882f6 solid 3px;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.extra-information{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:60px;
+    padding:50px;
+}
+
+.extra-information h2{
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+}
+
+.cards p{
+    line-height: 2.0;
+    max-width: 21ch;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
