@@ -8,6 +8,8 @@ body{
     min-height: 100vh
 }
 
+/* main header */
+
 .header , .hero{
     background-color: #1F2937;
 }
@@ -28,6 +30,8 @@ body{
     display: flex;
     gap: 20px;
 }
+
+/* hero text */
 
 .hero h1, .hero p , .hero img{
     color: white;
@@ -67,6 +71,8 @@ body{
     font-size: 48px;
     color: #f9faf8;
 }
+
+/* information */
 
 .box{
     border: #3882f6 solid 3px;
@@ -111,14 +117,16 @@ body{
     height: 100%;
 }
 
+/* quote */
+
 .quote{
     background-color: #e5e7eb;
     display: flex;
     flex-direction: row ;
-    padding:100px;
+    padding: 100px;
     justify-content: center;
     align-items: center;
-    gap:50px;
+    gap: 50px;
     font-size: 36px;
     line-height: 2.0;
 }
@@ -131,4 +139,28 @@ body{
 #author{
     font-weight: bold;
     text-align: end;
+}
+
+/* sign-in */
+
+.sign-in{
+    background-color: #3882f6 ;
+    padding: 50px;
+    margin: 70px 500px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.sign-in-text{
+    color: white;
+}
+
+.sign-in button{
+    background-color:#3882f6 ;
+    border: white solid 1px;
+    color: white;
+    padding: 8px 60px;
+    border-radius: 10px;
+    font-weight: bold;
 }
